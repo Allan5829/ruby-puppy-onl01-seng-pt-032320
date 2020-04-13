@@ -7,7 +7,7 @@ class Dog
   end 
   
   def self.all
-    puts @@all
+    return @@all
   end 
   
   def self.print_all
