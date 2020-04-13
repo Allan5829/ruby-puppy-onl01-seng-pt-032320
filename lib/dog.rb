@@ -3,11 +3,11 @@ class Dog
   
   def initialize (name)
     @name = name
-    @@all << @name
+    self.save
   end 
   
   def self.all
-    return @@all
+    @@all
   end 
   
   def self.print_all
@@ -17,6 +17,6 @@ class Dog
   end 
   
   def save 
-    
+    @@all << @name
   end 
 end
