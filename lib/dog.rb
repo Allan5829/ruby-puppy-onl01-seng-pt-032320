@@ -3,8 +3,7 @@ class Dog
   
   def initialize (name)
     @name = name
-    save.each do |name|
-    end
+
   end 
   
   def self.all
