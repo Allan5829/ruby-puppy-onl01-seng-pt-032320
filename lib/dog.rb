@@ -19,4 +19,8 @@ class Dog
   def save
     @@all << @name
   end 
+  
+  def clear_all 
+    @@all.clear
+  end 
 end
